@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.result-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.result-card {
+  box-shadow: 1px 1px 3px #ccc;
+  width: 400px;
+}
+
+.result-card__inner img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.result-card__text {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
