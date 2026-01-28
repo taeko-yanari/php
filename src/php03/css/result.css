@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.result__content {
+  max-width: 1260px;
+  width: 100%;
+  margin: 50px auto;
+}
+
+.result {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.result__table {
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.result__table__header {
+  width: 30%;
+  background: #edecec;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0 20px 20px;
+}
+
+.result__table__text {
+  width: 70%;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0 20px 20px;
+}

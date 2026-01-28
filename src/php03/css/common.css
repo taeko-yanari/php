@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  background: #000;
+  color: #fff;
+}
+
+.header__inner {
+  max-width: 1260px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.title__text {
+  text-align: center;
+}
+
+.form__content {
+  margin-top: 50px;
+}
+
+.city-form__select {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.city-form__list {
+  width: 300px;
+  height: 40px;
+  border-radius: 3px;
+  appearance: none;
+  padding: 5px 10px;
+}
+
+.city-form__button {
+  width: 60px;
+  height: 40px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
